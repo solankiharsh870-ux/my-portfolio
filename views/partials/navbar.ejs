@@ -1,0 +1,16 @@
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="navbar" id="siteHeader">
+    <a href="/" class="logo" aria-label="Harsh Solanki home">
+        <span class="logo-name">Harsh Solanki</span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="/" class="<%= currentPath === '/' ? 'active' : '' %>" <%- currentPath === '/' ? 'aria-current="page"' : '' %>>Home</a>
+        <a href="/about" class="<%= currentPath === '/about' ? 'active' : '' %>" <%- currentPath === '/about' ? 'aria-current="page"' : '' %>>About Me</a>
+        <a href="/skills" class="<%= currentPath === '/skills' ? 'active' : '' %>" <%- currentPath === '/skills' ? 'aria-current="page"' : '' %>>Skills</a>
+        <a href="/projects" class="<%= currentPath === '/projects' ? 'active' : '' %>" <%- currentPath === '/projects' ? 'aria-current="page"' : '' %>>Projects</a>
+        <a href="/contact" class="<%= currentPath === '/contact' ? 'active' : '' %>" <%- currentPath === '/contact' ? 'aria-current="page"' : '' %>>Contact Us</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" type="button" aria-label="Open navigation menu" aria-controls="navLinks" aria-expanded="false">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+    </button>
+</header>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="description" content="Technologies Harsh Solanki is learning and exploring across software, web development, databases, and cloud tools.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Skills | Harsh Solanki">
+    <meta property="og:description" content="Technologies and tools in my growing development toolkit.">
+    <title>Skills | Harsh Solanki</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body id="top">
+    <div class="background-circle circle-one"></div><div class="background-circle circle-two"></div>
+    <%- include('partials/navbar') %>
+    <main class="inner-page" id="main-content">
+        <section class="page-intro"><p class="eyebrow">Technologies I’m learning</p><h1>Skills & tools</h1><p>A growing toolkit shaped by coursework, exploration, and practical projects. Familiarity varies by technology.</p></section>
+        <section class="skills-groups" aria-label="Technology categories">
+            <article class="skills-group"><div class="skills-group-title"><span class="focus-icon"><i class="fa-solid fa-terminal"></i></span><div><p class="eyebrow">Listed technologies</p><h2>Programming</h2></div></div><p class="skills-note">Exploring through coursework and practice.</p><div class="tech-tags"><span>C</span><span>Java</span><span>Python</span><span>JavaScript</span><span>C#</span></div></article>
+            <article class="skills-group"><div class="skills-group-title"><span class="focus-icon"><i class="fa-solid fa-code"></i></span><div><p class="eyebrow">Used here & exploring</p><h2>Web development</h2></div></div><p class="skills-note">This portfolio uses HTML, CSS, JavaScript, Node.js, Express, and EJS. Bootstrap is also in my toolkit.</p><div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span><span>Express.js</span><span>EJS</span><span>Bootstrap</span></div></article>
+            <article class="skills-group"><div class="skills-group-title"><span class="focus-icon"><i class="fa-solid fa-cubes"></i></span><div><p class="eyebrow">Listed platforms</p><h2>Frameworks & platforms</h2></div></div><p class="skills-note">Familiarity varies across these technologies.</p><div class="tech-tags"><span>Django</span><span>Laravel</span><span>ASP.NET Core</span><span>Android / Kotlin</span></div></article>
+            <article class="skills-group"><div class="skills-group-title"><span class="focus-icon"><i class="fa-solid fa-database"></i></span><div><p class="eyebrow">Listed technologies</p><h2>Databases</h2></div></div><p class="skills-note">Learning how to model and work with application data.</p><div class="tech-tags"><span>MySQL</span><span>MongoDB</span></div></article>
+            <article class="skills-group"><div class="skills-group-title"><span class="focus-icon"><i class="fa-solid fa-screwdriver-wrench"></i></span><div><p class="eyebrow">Tools & cloud</p><h2>Development toolkit</h2></div></div><p class="skills-note">Tools I use or am exploring as part of development.</p><div class="tech-tags"><span>Git</span><span>GitHub</span><span>VS Code</span><span>AWS</span></div></article>
+            <article class="skills-group skills-learning"><div class="skills-group-title"><span class="focus-icon"><i class="fa-solid fa-lightbulb"></i></span><div><p class="eyebrow">Currently exploring</p><h2>Data & AI</h2></div></div><p class="skills-note">Learning concepts through Python and related coursework.</p><div class="tech-tags"><span>Python data analysis</span><span>Machine learning fundamentals</span><span>NLP</span><span>Generative AI</span><span>AI agents</span><span>Automation</span></div></article>
+        </section>
+        <section class="about-bottom-cta"><div><p class="eyebrow">Learning by doing</p><h2>See what I’m building.</h2></div><a class="primary-btn" href="/projects">View projects <i class="fa-solid fa-arrow-right"></i></a></section>
+    </main>
+    <%- include('partials/footer') %>
+    <script src="/js/script.js"></script>
+</body>
+</html>

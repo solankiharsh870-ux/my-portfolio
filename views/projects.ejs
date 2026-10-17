@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="description" content="Explore Harsh Solanki's software and web development projects, including work in progress and planned concepts.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Projects | Harsh Solanki">
+    <meta property="og:description" content="A selection of software projects and ideas I’m exploring.">
+    <title>Projects | Harsh Solanki</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body id="top">
+    <div class="background-circle circle-one"></div><div class="background-circle circle-two"></div>
+    <%- include('partials/navbar') %>
+    <main class="inner-page" id="main-content">
+        <section class="page-intro"><p class="eyebrow">Selected work & ideas</p><h1>Projects</h1><p>A few things I’m building, learning, and exploring across web development and machine learning.</p></section>
+        <section class="project-grid premium-project-grid" aria-label="Portfolio projects">
+            <article class="premium-project-card project-current">
+                <div class="project-card-top"><span class="project-index">01 / FEATURED</span><span class="project-status status-progress"><i class="fa-solid fa-circle"></i> In progress</span></div>
+                <div class="project-art" role="img" aria-label="Stylized preview of the developer portfolio design"><div class="art-browser"><div class="art-browser-bar"><span></span><span></span><span></span><small>harshsolanki.dev</small></div><div class="art-browser-content"><div><i class="fa-solid fa-code"></i><b>Building thoughtful</b><b>digital experiences.</b><small>Node.js Developer</small></div><div class="art-browser-avatar"><i class="fa-solid fa-user"></i></div></div></div><div class="art-glint"></div><small>PORTFOLIO · 2026</small></div>
+                <div class="project-copy"><p class="project-kicker">PERSONAL WEBSITE</p><h2>Developer Portfolio</h2><p>A responsive home for my work, skills, and learning journey—designed to make it easy to get to know me.</p>
+                <ul class="project-features"><li>Multi-page site built with Express and EJS</li><li>Responsive navigation and accessible layouts</li></ul>
+                <div class="tech-tags"><span>Node.js</span><span>Express</span><span>EJS</span><span>CSS</span></div></div>
+            </article>
+            <article class="premium-project-card">
+                <div class="project-card-top"><span class="project-index">02</span><span class="project-status">Exploring</span></div>
+                <div class="project-art project-art-data" role="img" aria-label="Stylized database dashboard concept"><div class="art-database"><i></i><i></i><i></i></div><div class="art-data-panel"><span>RECORDS</span><b>1,248</b><i></i><i></i><i></i></div><small>DATABASE APP · CONCEPT</small></div>
+                <div class="project-copy"><p class="project-kicker">WEB APPLICATION</p><h2>CRUD Web App</h2><p>An idea for a simple records manager to practice the full create, read, update, and delete workflow.</p>
+                <ul class="project-features"><li>Record management flows</li><li>MongoDB data persistence</li></ul>
+                <div class="tech-tags"><span>Node.js</span><span>Express</span><span>MongoDB</span></div></div>
+            </article>
+            <article class="premium-project-card">
+                <div class="project-card-top"><span class="project-index">03</span><span class="project-status">Exploring</span></div>
+                <div class="project-art project-art-people" role="img" aria-label="Stylized hiring workflow concept"><div class="art-hiring"><span><i class="fa-solid fa-user"></i></span><b></b><span><i class="fa-solid fa-briefcase"></i></span></div><div class="art-hiring-step"><i></i><i></i><i></i><i></i></div><small>HIRING WORKFLOW · CONCEPT</small></div>
+                <div class="project-copy"><p class="project-kicker">PRODUCT CONCEPT</p><h2>SmartHire</h2><p>A recruitment workflow concept for organizing job listings and applicant progress.</p>
+                <ul class="project-features"><li>Applicant status tracking</li><li>MVC application architecture</li></ul>
+                <div class="tech-tags"><span>ASP.NET Core</span><span>C#</span></div></div>
+            </article>
+            <article class="premium-project-card">
+                <div class="project-card-top"><span class="project-index">04</span><span class="project-status">Exploring</span></div>
+                <div class="project-art project-art-news" role="img" aria-label="Stylized text classification concept"><div class="art-news-lines"><strong>ARTICLE ANALYSIS</strong><i></i><i></i><i></i><b><i class="fa-solid fa-shield-halved"></i> Classification concept</b></div><small>TEXT CLASSIFICATION · CONCEPT</small></div>
+                <div class="project-copy"><p class="project-kicker">MACHINE LEARNING</p><h2>News Classifier</h2><p>A learning project concept for exploring text processing and how classification models work.</p>
+                <ul class="project-features"><li>Natural language processing</li><li>Model experimentation</li></ul>
+                <div class="tech-tags"><span>Python</span><span>NLP</span><span>Machine Learning</span></div></div>
+            </article>
+        </section>
+        <p class="project-note"><i class="fa-solid fa-circle-info"></i> Concepts are clearly marked; demos and repository links will appear here as work is published.</p>
+        <section class="about-bottom-cta"><div><p class="eyebrow">Let’s connect</p><h2>Interested in building something together?</h2></div><a class="primary-btn" href="/contact">Contact me <i class="fa-solid fa-arrow-right"></i></a></section>
+    </main>
+    <%- include('partials/footer') %>
+    <script src="/js/script.js"></script>
+</body>
+</html>

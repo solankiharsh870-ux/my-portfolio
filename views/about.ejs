@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="description" content="Learn more about Harsh Solanki, an MCA student interested in software development, web technologies, data science and AI.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="About Harsh Solanki">
+    <meta property="og:description" content="My education, interests, and learning journey in software development.">
+    <title>About | Harsh Solanki</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body id="top">
+    <div class="background-circle circle-one"></div>
+    <div class="background-circle circle-two"></div>
+
+    <%- include('partials/navbar') %>
+
+    <main class="about-page" id="main-content">
+        <section class="about-hero">
+            <div class="about-copy">
+                <p class="welcome-text"><span></span> A little about me</p>
+                <h1>Curious mind.<br><strong>Practical builder.</strong></h1>
+                <p class="about-lead">I’m Harsh, an MCA student who enjoys turning ideas into useful digital experiences and learning how technology can solve real problems.</p>
+                <p class="about-body">My interests span software and web development, data science, and artificial intelligence. I like exploring how things work, building hands-on projects, and steadily growing my skills along the way.</p>
+                <div class="about-actions">
+                    <a class="primary-btn" href="/projects">Explore my projects <i class="fa-solid fa-arrow-right"></i></a>
+                    <a class="outline-btn" href="/contact">Let’s connect</a>
+                </div>
+            </div>
+            <div class="about-visual">
+                <div class="about-photo-frame">
+                    <div class="portrait-clip">
+                        <img src="/images/about-portrait.png" alt="Portrait of Harsh Solanki" width="1024" height="1536" loading="lazy" decoding="async">
+                    </div>
+                </div>
+                <div class="about-note"><i class="fa-solid fa-graduation-cap"></i><span><small>Currently pursuing</small><strong>Master of Computer Applications</strong></span></div>
+                <span class="about-orbit orbit-one"></span>
+                <span class="about-orbit orbit-two"></span>
+            </div>
+        </section>
+
+        <section class="about-focus" aria-labelledby="focus-title">
+            <div class="section-heading">
+                <p class="eyebrow">What I’m exploring</p>
+                <h2 id="focus-title">Areas that keep me curious</h2>
+                <p>I’m building a broad foundation and finding new ways to put it into practice.</p>
+            </div>
+            <div class="focus-grid">
+                <article class="focus-card"><span class="focus-icon"><i class="fa-solid fa-code"></i></span><h3>Software development</h3><p>Designing and building practical applications with clean, thoughtful solutions.</p></article>
+                <article class="focus-card"><span class="focus-icon"><i class="fa-solid fa-globe"></i></span><h3>Web development</h3><p>Creating modern web experiences that feel clear and work across devices.</p></article>
+                <article class="focus-card"><span class="focus-icon"><i class="fa-solid fa-chart-line"></i></span><h3>Data science</h3><p>Exploring how data can reveal patterns and support better decisions.</p></article>
+                <article class="focus-card"><span class="focus-icon"><i class="fa-solid fa-brain"></i></span><h3>Artificial intelligence</h3><p>Learning about intelligent systems and the possibilities they bring.</p></article>
+            </div>
+        </section>
+
+        <section class="about-education" aria-labelledby="education-title">
+            <div class="education-mark"><i class="fa-solid fa-book-open"></i></div>
+            <div>
+                <p class="eyebrow">My education</p>
+                <h2 id="education-title">Master of Computer Applications</h2>
+                <p class="education-school">Atmiya University,Rajkot-Gujarat</p>
+                <p class="education-description">My postgraduate studies are strengthening my understanding of computing while I continue to learn through practical projects.</p>
+            </div>
+            <span class="education-accent" aria-hidden="true"></span>
+        </section>
+
+        <section class="about-journey" id="journey">
+            <div class="journey-panel">
+                <p class="eyebrow">Development philosophy</p>
+                <h2>Make useful things, with care.</h2>
+                <p>I value clear problem-solving, readable work, and thoughtful details. I aim to build software that feels straightforward to use and maintain.</p>
+            </div>
+            <div class="journey-panel">
+                <p class="eyebrow">Career objective</p>
+                <h2>Growing into a thoughtful software developer.</h2>
+                <p>I’m working toward a Software Developer role where I can contribute, learn from experienced teams, and build reliable, useful software.</p>
+            </div>
+            <div class="journey-panel">
+                <p class="eyebrow">Learning journey & strengths</p>
+                <h2>Curiosity, practice, and adaptability.</h2>
+                <p>I approach unfamiliar problems by breaking them into manageable steps, trying ideas in practical projects, and adjusting as I learn.</p>
+            </div>
+        </section>
+
+        <section class="current-focus-band">
+            <span class="focus-icon"><i class="fa-solid fa-compass"></i></span>
+            <div><p class="eyebrow">Current focus</p><h2>Connecting software fundamentals to practical applications.</h2><p>I’m building with web technologies and exploring Python, data science, and AI as part of my wider learning path.</p></div>
+        </section>
+
+        <section class="certificate-section" id="certificates" aria-labelledby="certificates-title">
+            <div class="section-heading">
+                <p class="eyebrow">Courses & learning</p>
+                <h2 id="certificates-title">Certificates</h2>
+                <p>Certificates from my ongoing learning in data science and web3 development.</p>
+            </div>
+            <div class="certificate-grid">
+                <article class="certificate-card">
+                    <a class="certificate-preview" href="/certificates/Data-Science-Essentials-with-Python.pdf" target="_blank" rel="noopener" aria-label="Open Data Science Essentials with Python certificate">
+                        <iframe src="/certificates/Data-Science-Essentials-with-Python.pdf#toolbar=0&navpanes=0&scrollbar=0&view=Fit" title="Data Science Essentials with Python certificate preview" loading="lazy" tabindex="-1"></iframe>
+                        <span class="certificate-hover">View certificate <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
+                    </a>
+                    <div class="certificate-info"><p class="certificate-type">DATA SCIENCE · PYTHON</p><h3>Data Science Essentials with Python</h3><p>Course certificate</p><a class="certificate-link" href="/certificates/Data-Science-Essentials-with-Python.pdf" download="Data-Science-Essentials-with-Python.pdf">Download PDF <i class="fa-solid fa-download" aria-hidden="true"></i></a></div>
+                </article>
+                <article class="certificate-card">
+                    <a class="certificate-preview" href="/certificates/Web3-Rust-Foundations.pdf" target="_blank" rel="noopener" aria-label="Open Web3 Rust Foundations certificate">
+                        <iframe src="/certificates/Web3-Rust-Foundations.pdf#toolbar=0&navpanes=0&scrollbar=0&view=Fit" title="Web3 Rust Foundations certificate preview" loading="lazy" tabindex="-1"></iframe>
+                        <span class="certificate-hover">View certificate <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
+                    </a>
+                    <div class="certificate-info"><p class="certificate-type">WEB3 · RUST</p><h3>Web3 Rust Foundations</h3><p>Course certificate</p><a class="certificate-link" href="/certificates/Web3-Rust-Foundations.pdf" download="Web3-Rust-Foundations.pdf">Download PDF <i class="fa-solid fa-download" aria-hidden="true"></i></a></div>
+                </article>
+            </div>
+        </section>
+
+        <section class="about-bottom-cta">
+            <div><p class="eyebrow">Have a project in mind?</p><h2>Let’s build something useful.</h2></div>
+            <a class="primary-btn" href="/contact">Get in touch <i class="fa-solid fa-arrow-right"></i></a>
+        </section>
+    </main>
+    <%- include('partials/footer') %>
+    <script src="/js/script.js"></script>
+</body>
+</html>
